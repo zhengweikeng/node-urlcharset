@@ -1,0 +1,21 @@
+{
+  "name": "node-urlcharset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -t 2000 ./test/**/*.test.js",
+    "test-cov": "istanbul cover node_modules/.bin/_mocha -- -R spec -t 2000 ./test/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.13"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.4.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  }
+}
