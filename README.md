@@ -1,0 +1,2 @@
+# node-urlcharset
+让node的querystring里的encodeURIComponent和decodeURIComponent，支持任何编码
