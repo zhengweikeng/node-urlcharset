@@ -1,14 +1,16 @@
 {
   "name": "node-urlcharset",
   "version": "1.0.0",
-  "description": "",
+  "description": "node querystring encodeURIComponent and decodeURIComponent plugin",
   "main": "index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "mocha -R spec -t 2000 ./test/**/*.test.js",
     "test-cov": "istanbul cover node_modules/.bin/_mocha -- -R spec -t 2000 ./test/**/*.test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Seed",
   "dependencies": {
     "iconv-lite": "^0.4.13"
   },
@@ -17,5 +19,11 @@
     "eslint": "^2.4.0",
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3"
-  }
+  },
+  "homepage": "https://github.com/zhengweikeng/node-urlcharset",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhengweikeng/node-urlcharset.git"
+  },
+  "license": "MIT"
 }
