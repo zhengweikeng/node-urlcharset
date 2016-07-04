@@ -41,7 +41,7 @@ get a encodeUriComponent with the specifed charset
 get a decodeUriComponent with the specifed charset
 
 ### encode(str, charset)
-encode a string with the specifed charset.  
+encode a string with a specifed charset.  
 But the following characters will not escape:  
 ! - . _ ~ ' ( ) * 0-9 a-z A-Z
 ```javascript
@@ -50,7 +50,7 @@ var res = urlcharset.encode('中文', 'gbk')
 ```
 
 ### decode(str, charset)
-encode a string with the specifed charset.  
+decode a string with a specifed charset.  
 ```javascript
 var res = urlcharset.encode('%D6%D0%CE%C4', 'gbk')
 // 中文
