@@ -3,7 +3,7 @@
 
 ## Install
 ```bash
-$ npm install node-urlcharset
+$ npm install urlcharset
 ```
 
 ## Usage
