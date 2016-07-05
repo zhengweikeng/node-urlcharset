@@ -1,5 +1,5 @@
 {
-  "name": "node-urlcharset",
+  "name": "urlcharset",
   "version": "1.0.0",
   "description": "node querystring encodeURIComponent and decodeURIComponent plugin",
   "main": "index.js",
@@ -24,6 +24,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/zhengweikeng/node-urlcharset.git"
+  },
+  "engines": {
+    "node": ">=0.12.0"
   },
   "license": "MIT"
 }
